@@ -18,8 +18,11 @@ get_starttime_weekday_meantemp_truncdata = function(temp.available, monc, dforma
         tempcolumn = 7
       }
     }
-    if (monc == 4 | monc == 0) tempcolumn = 5
+    if (monc == 4) tempcolumn = 5
     if (monc == 5) tempcolumn = 4
+    if (monc == 0) tempcolumn = 4
+    #print(tempcolumn) #tempcolumn = 5
+    #print(data)
     meantemp = mean(as.numeric(data[,tempcolumn]),na.rm=TRUE)
     if (is.na(meantemp) == T) { #mean(as.numeric(data[1:10,7]))
       cat("\ntemperature is NA\n")
