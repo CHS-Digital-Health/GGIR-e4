@@ -473,6 +473,7 @@ g.getmeta = function(datafile, params_metrics = c(), params_rawdata = c(),
             data = scale(data,center = -offset, scale = 1/scale)  #rescale data
           } else if ((mon == 2 | mon == 0) & use.temp == TRUE) {
             # meantemp replaced by meantempcal # 19-12-2013
+            
             data = scale(data,center = -offset, scale = 1/scale) +
               scale(yy, center = rep(meantempcal,3), scale = 1/tempoffset)  #rescale data
             rm(yy); gc()
