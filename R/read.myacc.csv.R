@@ -229,3 +229,4 @@ read.myacc.csv = function(rmc.file=c(), rmc.nrow=Inf, rmc.skip=c(), rmc.dec=".",
               PreviousLastValue = PreviousLastValue,
               PreviousLastTime = PreviousLastTime))
 }
+
