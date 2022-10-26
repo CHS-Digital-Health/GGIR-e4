@@ -1,3 +1,10 @@
+# Empatica E4
+More info on the [E4 wristband](https://www.empatica.com/research/e4/)
+
+![](https://www.empatica.com/assets/images/logo/empatica_logo_red.svg)
+
+
+# GGIR
 ![](vignettes/GGIR-MASTERLOGO-RGB.png)
 
 ![GitHub Actions R-CMD-check](https://github.com/wadpac/GGIR/workflows/R-CMD-check-full/badge.svg)
